@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #333;
+    height: 60px;
+    align-items: center;
+}
+
+nav {
+    display: flex
+;
+    gap: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section#home {
+border: 2px solid red;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  align-items: center;
+}
+
+#home .left {
+  flex: 1;
+  border: 1px solid;
+  /* height: 100%; */
+}
+
+#home .right {
+  flex: 1;
+  border: 1px solid;
+  /* height: 100%; */
+
+}
+section#about {
+border: 2px solid blue;
+}
+section#skill {
+border: 2px solid;
+}
+section#project {
+border: 2px solid green;
+}
+section#contact {
+border: 2px solid red;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sk-box, .con-box, .pro-box {
+  width: 100px;
+  height: 150px;
+  border: 2px solid blue;
+}
